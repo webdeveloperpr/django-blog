@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
   'jobs.apps.JobsConfig',
+  'blog.apps.BlogConfig',
   'django.contrib.admin',
   'django.contrib.auth',
   'django.contrib.contenttypes',
@@ -77,7 +78,7 @@ DATABASES = {
     'NAME': 'portfoliodb',
     'USER': 'postgres',
     'PASSWORD': '123qweQWE',
-    'HOST': '127.0.0.1',
+    'HOST': 'localhost',
     'PORT': '5432'
   }
 }
